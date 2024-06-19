@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: 60px;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    height: 60px;
+    flex-shrink: 0;
+}
+
+post-content figure {
+    width: 100px;
+}
